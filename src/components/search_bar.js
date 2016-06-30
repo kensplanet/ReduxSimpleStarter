@@ -16,7 +16,7 @@ class SearchBar extends React.Component {
     }
 
     onInputChange(term) {
-
+        this.setState({term});
     }
 }
 
